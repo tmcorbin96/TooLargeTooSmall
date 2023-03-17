@@ -11,7 +11,7 @@ public class Main {
         Scanner Number = new Scanner(System.in);
 
         int num1 = (int) (Math.random() * 100);
-        int guess = 3;
+        int guess = 5;
         int i, tryMe;
         System.out.println("Guess a number! Any number!");
         for( i = 0; i < guess; i++) {
